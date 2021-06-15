@@ -1,0 +1,13 @@
+g-react component Hello
+
+g-react component Hello name:String dob:Date calcAge:Function
+
+g-react route hello
+- Hello.js in container
+- Route in App.js /hello
+
+g-react route hello/:name/world/:id
+- Ignore params
+- World.js in container
+- Route in Hello.js /world
+- Throw Err(Hello.js not found) if !Hello.js
